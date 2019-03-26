@@ -11,17 +11,17 @@
 </head>
 <body>
    <nav role="navigation">
-   	<a href = "#Portfolio">Portfolio</a>	
-		<a href = "#About">About</a>
-   	<a href = "#Home">Home</a>
+   	<a href = "#Projects" class = "projects">Projects</a>	
+		<a href = "#About" class = "about">About</a>
+   	<a href = "#Home" class = "home">Home</a>
    </nav>
    <main role="main">
-      <header class="banner">
+      <header class="banner" id = "Home">
 			<h2>Hello I'm Kevin. I'm an aspiring web designer always striving to learn more.</h2>
          <h1>Picture of myself</h1>
       </header>
 		
-      <section class= "aboutMe">
+      <section class= "aboutMe" id = "About">
 			<h3>About Me</h3>
 			<p>
 				I am a web developer who is currently taking the Full Stack Flex bootcamp at Thinkful.
@@ -33,25 +33,40 @@
 			</p>
 		</section>
 
-		<div class= "ProjectHeader">
+		<div class= "ProjectHeader" id = "Projects">
 			<h3>Take a look at some projects I created</h3>
 		</div>
 
         <section class = "screenShot">
-				<p>Screenshot of Project</p>
+				<img src = "QuizScreenshot.png" alt = "quizscreenshot"> 
 		  </section>
 		  
 		  <div class = "links">
-			  <button>Code Here</button>
-			  <button>Link Here</button>
-			  <p>
-				   This is a Quiz App that I designed recently using HTML/CSS, JavaScript, and JQuery. As a
-					lover of video games I have designed this app to challenge your knowledge on nostalgic 
-					video games from my past.
-			  </p>
+			  <form>
+			  		<a class= "button" target="_blank" href="https://k-tsai.github.io/Quiz-Final/">Link Here</a>
+			  		<a class= "button" target="_blank" href="https://github.com/K-Tsai/Quiz-Final">Code Here</a>
+			  		<p>
+				   	This is a Quiz App that I designed recently using HTML/CSS, JavaScript, and JQuery. As a
+						lover of video games I have designed this app to challenge your knowledge on nostalgic 
+						video games from my past.
+			  		</p>
+			  	</form>
 			</div>
 
     </main>
-    <footer role="content-info">Social Media Buttons</footer>
+	 <footer role="content-info">
+		 <h4>Contact Me</h4>
+		<a href="https://github.com/K-Tsai" target="_blank">
+			<img alt="github icon" src="GitHub-Mark.png" class= "githubLogo">
+		</a>
+		<a href="https://www.linkedin.com/in/kevin-tsai-aa28aa114/" target="_blank">
+			<img alt="linkedin icon" src="linkedinlogo.png" class= "linkedinLogo">
+		</a>
+		<a href = "mailto: K.tsai92@gmail.com" target="_top">
+			<img alt = "email logo" src="emaillogo.png" class = "emailLogo">
+		</a>
+	 </footer>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="index.js"></script>
 </body>
 </html>
