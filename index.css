@@ -84,7 +84,8 @@ p {
   
   
 header {
-  padding: 12% 0;
+  padding-top: 100px; 
+  padding-bottom: 50px;
   /* margin-bottom: 50px; */
 }
   
@@ -101,6 +102,7 @@ section:nth-child(even) {
 .aboutMe{
   padding-right: 500px; 
   padding-left: 500px; 
+  padding-top: 0px;
   text-align: left;
   line-height: 30px;
   font-size: 24px;
@@ -135,7 +137,14 @@ button:hover {
   margin-bottom: 50px;
 }
 
-img {
+.portfolioPic1 {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.quizScreenshot {
   width: 1000px;
   height: 600px;
   border: 2px solid black;
@@ -171,10 +180,18 @@ img {
      padding-right: 15px;
    }
 
-   img {
+   .quizScreenshot {
     max-width: 100%;
     height: auto;
   }
+
+  .portfolioPic1 {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .screenShot {
     padding: 0px;
     margin-bottom: 0px;
@@ -230,9 +247,16 @@ img {
       text-align: left;
     }
 
-    img {
+    .quizScreenshot {
       max-width: 100%;
       height: auto;
+    }
+
+    .portfolioPic1 {
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .screenShot {
